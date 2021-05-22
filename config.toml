@@ -17,8 +17,9 @@ use_full_hack_font = true
 enable_post_view_navigation = true
 post_view_navigation_prompt = "Read more"
 menu_items = [
-    {name = "github", url = "https://github.com/mrioqueiroz", newtab = true},
     {name = "linkedin", url = "https://linkedin.com/in/mrioqueiroz", newtab = true},
     {name = "twitter", url = "https://twitter.com/mrioqueiroz", newtab = true},
+    {name = "github", url = "https://github.com/mrioqueiroz", newtab = true},
+    {name = "source code", url = "https://github.com/mrioqueiroz/nix-hosts", newtab = true},
     {name = "buy me a coffee", url = "https://buymeacoffee.com/mrioqueiroz", newtab = true},
 ]
