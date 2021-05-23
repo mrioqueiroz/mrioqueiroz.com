@@ -1,25 +1,40 @@
 base_url = "https://mrioqueiroz.com"
 title = "Mário Queiroz"
 description = "Personal Blog"
-theme = "terminimal"
-minify_html = true
+theme = "zerm"
+
+# New lines are being removed from code blocks if this is enabled.
+# See: https://github.com/getzola/zola/issues/1300
+minify_html = false
 compile_sass = true
-highlight_code = true
-highlight_theme = "gruvbox-dark"
 build_search_index = true
 
+taxonomies = [
+  {name = "tags"},
+  {name = "categories"},
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+
 [extra]
-accent_color = "blue"
-background_color = "light"
+theme_color = "orange"
 logo_text = "Mário Queiroz"
 author = "Mário Queiroz"
-use_full_hack_font = true
+copyright = "Mário Queiroz"
+show_author = false
+center = true
+show_tags = true
+show_categories = true
 enable_post_view_navigation = true
-post_view_navigation_prompt = "Read more"
-menu_items = [
-    {name = "linkedin", url = "https://linkedin.com/in/mrioqueiroz", newtab = true},
-    {name = "twitter", url = "https://twitter.com/mrioqueiroz", newtab = true},
-    {name = "github", url = "https://github.com/mrioqueiroz", newtab = true},
-    {name = "source code", url = "https://github.com/mrioqueiroz/nix-hosts", newtab = true},
-    {name = "buy me a coffee", url = "https://buymeacoffee.com/mrioqueiroz", newtab = true},
+post_view_navigation_prompt = "read more"
+main_menu = [
+  {name = "about", url = "/what-is-this-all-about"},
+  {name = "linkedin", url = "https://linkedin.com/in/mrioqueiroz"},
+  {name = "twitter", url = "https://twitter.com/mrioqueiroz"},
+  {name = "github", url = "https://github.com/mrioqueiroz"},
+  {name = "source", url = "https://github.com/mrioqueiroz/nix-hosts"},
+  {name = "grafana", url = "https://grafana.mrioqueiroz.com"},
+  {name = "support", url = "https://buymeacoffee.com/mrioqueiroz"},
 ]
