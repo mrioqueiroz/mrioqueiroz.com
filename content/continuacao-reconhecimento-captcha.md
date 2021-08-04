@@ -1,5 +1,6 @@
 +++
 title = "Continuação do projeto de reconhecimento de caracteres em Captcha"
+description = "Explicação do projeto e um pouco do funcionamento do código."
 date = 2020-12-14
 +++
 

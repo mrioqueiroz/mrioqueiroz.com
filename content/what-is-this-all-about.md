@@ -1,5 +1,6 @@
 +++
 title = "What's this all about?"
+description = "Some words about this project."
 date = 2021-05-22
 +++
 

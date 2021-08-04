@@ -1,5 +1,6 @@
 +++
 title = "Resutados de entrega e reescrita de projeto"
+description = "Um pouco sobre a automação de um processo utilizando Python e posterior rerescrita do projeto em Rust."
 date = 2020-12-14
 +++
 

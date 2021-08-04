@@ -1,5 +1,6 @@
 +++
 title = "Rust Ownership Learning Notes"
+description = "Just some personal notes on this topic."
 date = 2020-12-12
 +++
 

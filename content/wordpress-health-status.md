@@ -1,5 +1,6 @@
 +++
 title = "Solving WordPress Health Status for wp-load.php"
+description = "Quick tip to fix WordPress health status."
 date = 2021-02-07
 +++
 
