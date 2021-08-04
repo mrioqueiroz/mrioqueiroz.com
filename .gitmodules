@@ -1,6 +1,0 @@
-[submodule "themes/terminimal"]
-	path = themes/terminimal
-	url = https://github.com/mrioqueiroz/zola-theme-terminimal
-[submodule "themes/zerm"]
-	path = themes/zerm
-	url = git@github.com:mrioqueiroz/zerm.git
