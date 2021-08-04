@@ -34,7 +34,8 @@ show_menu_items = 0
 menu_more = "info"
 read_more = "read more"
 
-# Add external URLs: https://github.com/ejmg/zerm/issues/23
 main_menu = [
   {name = "about", url = "/what-is-this-all-about"},
+  {name = "GitHub", url = "https://github.com/mrioqueiroz", external = true},
+  {name = "LinkedIn", url = "https://linkedin.com/in/mrioqueiroz", external = true},
 ]
