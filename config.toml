@@ -30,8 +30,8 @@ show_categories = true
 enable_post_view_navigation = true
 post_view_navigation_prompt = "read more"
 full_width = false
-show_menu_items = 0
-menu_more = "info"
+show_menu_items = 5
+menu_more = "more"
 read_more = "read more"
 
 main_menu = [
